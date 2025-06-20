@@ -1,2 +1,60 @@
 # CODECRAFT_TrackCode_Task2
 Predicts marketing campaign success using a Decision Tree on the Bank Marketing Dataset. Includes preprocessing, model training, evaluation (accuracy, confusion matrix), and visualization (feature importance, decision tree). Great for beginner ML or academic projects.
+# 📊 Bank Marketing Prediction – Decision Tree Classifier
+
+This project uses the **Bank Marketing Dataset** to build a **Decision Tree Classifier** that predicts whether a customer will subscribe to a term deposit (marketing success prediction).
+
+---
+
+## 🚀 Project Overview
+
+- **Objective**: Predict customer response (`yes`/`no`) to a marketing campaign using decision tree models.
+- **Dataset**: UCI Machine Learning Repository – [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- **Target Variable**: `y` – Whether the client subscribed to a term deposit
+
+---
+
+## 📁 Folder Structure
+
+
+---
+
+## 🔧 Tools & Libraries
+
+- Python
+- pandas, matplotlib, seaborn
+- scikit-learn
+- joblib (for model saving)
+
+---
+
+## 📈 Key Features
+
+- Preprocesses data with one-hot encoding  
+- Splits data into training and testing sets  
+- Trains a Decision Tree Classifier  
+- Evaluates performance using accuracy, confusion matrix, and classification report  
+- Visualizes:
+  - Confusion Matrix
+  - Top 15 Feature Importances
+  - Decision Tree
+- Saves predictions and trained model to `output/` folder
+
+---
+
+## ✅ How to Run
+
+1. Clone or download this project
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+---
+
+## 📎 Next Steps
+
+- Save this as `README.md` inside your project folder.
+- (Optional) Upload your project to GitHub.
+- I can also create a `requirements.txt` if needed.
+
+Would you like me to generate the `README.md` file and upload it for download?
