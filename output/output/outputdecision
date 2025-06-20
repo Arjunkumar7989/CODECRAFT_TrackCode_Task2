@@ -1,0 +1,8 @@
+# Save trained model to file
+import joblib
+import os
+
+os.makedirs('output', exist_ok=True)
+joblib.dump(model, 'output/decision_tree_model.pkl')
+
+print("✅ Model saved to 'output/decision_tree_model.pkl'")
